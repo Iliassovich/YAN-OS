@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-left: 0.4px solid #000; 
+    background-color: #FFF;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #585858;
+}
+.Top-Left-Quarter{
+	width: 50%;
+	height: 50%;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #0080FF;
+	border: none;
+	z-index: 5;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+.Top-Right-Quarter{
+	width: 50%;
+	height: 50%;
+	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #0080FF;
+	border: none;
+	z-index: 5;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+.Bottom-Left-Quarter{
+	width: 50%;
+	height: 50%;
+	float: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #0080FF;
+	border: none;
+	z-index: 5;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+.Bottom-Right-Quarter{
+	width: 50%;
+	height: 50%;
+	float: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #0080FF;
+	border: none;
+	z-index: 5;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+.YAN-FACE{
+	width: 64px;
+	height: 64px;
+	float: left;
+	position: fixed;
+	top: 47.5%;
+	left: 47.5%;
+	z-index: 7;
+}
+.Date_Houre{
+	width: auto;
+	height: auto;
+	float: right;
+	font-family: Neuropol;
+	color: #FFF;
+	font-size: 22px;
+	margin-top: 9px;
+	margin-right: 10px;
+	cursor: default;
+}
+.Desktop{
+	height: 25%;
+	width: 25%;
+	float: left;
+	margin-left: 37.5%;
+	margin-top: 21%;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	background-image: url('../files/WALLPAPER.png');
+	background-position: center;
+	background-size: 100% 100%;
+}
+.Stat_Bar{
+	width: 25%;
+	height: 40px;
+	background-color: rgb(52, 73, 94);
+	float: left;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	z-index: 5;
+}
+.App-Paper{
+	width: 100%;
+	height: 94%;
+	margin-top: 40px;
+	border: none;
+	float: left;
+	background-color: transparent;
+}
+.app{
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	background-position: center;
+	background-size: 64px 64px;
+	cursor: pointer;
+}
+.app:hover{
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	background-color: rgb(52, 73, 94);
+}
+.P-Word{
+	background-image: url('../files/PW.png');
+}
+.P-Presentation{
+	background-image: url('../files/PP.png');
+}
+.StatBar{
+	width: 75%;
+	height: 40px;
+	background-color: #585858;
+	border: none;
+    bottom: 0;
+    float: left;
+    margin-left: 12.5%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 5;
+    transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}

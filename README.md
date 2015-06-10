@@ -1,2 +1,2 @@
 # YAN-OS
-YAN OS is for now just for navigators.
+YAN OS is an open source operating system works on navigators.

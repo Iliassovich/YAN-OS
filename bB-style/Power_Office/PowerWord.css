@@ -1,0 +1,97 @@
+.WINDOW{
+	width: 50%;
+	height: auto;
+	float: left;
+	position: fixed;
+	z-index: 3;
+	top: 40px;
+	border: none;
+}
+.DOCUMENT{
+	width: 100%;
+	height: 350px;
+	background-color: #ecf0f1;
+	float: left;
+	border: none;
+	overflow-y: scroll;
+}
+.Title_Bar{
+	width: 100%;
+	height: 25px;
+	float: left;
+	border: none;
+	background-color: #2980b9;
+}
+.Tools_Bar{
+	width: 100%;
+	height: 60px;
+	background-color: #E9E9E9;
+	border: none;
+	border-bottom: 1px solid #585858;
+	float: left;
+	z-index: 2;
+}
+.Text_Area{
+	background-color: #FFF;
+	resize: none;
+	float: left;
+	margin-top: 40px;
+	outline: none;
+	margin-bottom: 40px;
+	border: 1px solid #bdc3c7;
+}
+.Text{
+	width: 95%;
+	background-color: #FFF;
+	resize: none;
+	float: left;
+	height: 95%;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	outline: none;
+	border: none;
+	cursor: default;
+}
+.Close{
+	height: auto;
+	width: auto;
+	font-size: 16px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 3px;
+	font-family: Neuropol;
+	cursor: pointer;
+	color: #FFF;
+}
+.MAX{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFF;
+	border-top: 4px solid #FFF;
+	float: right;
+	margin-right: 10px;
+	margin-top: 4.5px;
+	cursor: pointer;
+}
+.MIN{
+	width: 16px;
+	height: auto;
+	border: none;
+	border-top: 5px solid #FFF;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+.SB_ICO{
+	float: left;
+	height: 30px;
+	width: 30px;
+	border: none;
+	border-radius: 30px;
+	background-size: 32px 32px;
+	background-position: center;
+	margin-left: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
